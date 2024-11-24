@@ -57,10 +57,12 @@ void Error_Handler(void);
 /* USER CODE END EFP */
 
 /* Private defines -----------------------------------------------------------*/
-#define TIM1_PERIOD 1-1
-#define TIM1_PRESCALER 64
+#define TIM1_PERIOD 512-1
+#define TIM1_PRESCALER 0
 #define TIM2_PERIOD 512-2
 #define TIM2_PRESCALER 0
+#define LD1_Pin GPIO_PIN_13
+#define LD1_GPIO_Port GPIOC
 #define SER_PIN_Pin GPIO_PIN_0
 #define SER_PIN_GPIO_Port GPIOB
 #define SRCLK_PIN_Pin GPIO_PIN_1

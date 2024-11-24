@@ -1,0 +1,99 @@
+(kicad_sch (version 20230121) (generator eeschema)
+
+  (uuid 7c55f98c-eaff-411d-a10a-455fb66f0238)
+
+  (paper "A4")
+
+  (lib_symbols
+  )
+
+
+  (sheet (at 152.4 30.48) (size 26.67 16.51) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 1be813ee-3b10-4ba0-a1bb-381ed14de9ad)
+    (property "Sheetname" "display" (at 152.4 29.7684 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "display.kicad_sch" (at 152.4 47.5746 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "proTraceBoard"
+        (path "/7c55f98c-eaff-411d-a10a-455fb66f0238" (page "5"))
+      )
+    )
+  )
+
+  (sheet (at 185.42 30.48) (size 27.94 16.51) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 1d39ca7c-b583-4544-a174-00aa597e3712)
+    (property "Sheetname" "ADC" (at 185.42 29.7684 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "ADC.kicad_sch" (at 185.42 47.5746 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "proTraceBoard"
+        (path "/7c55f98c-eaff-411d-a10a-455fb66f0238" (page "6"))
+      )
+    )
+  )
+
+  (sheet (at 41.91 30.48) (size 30.48 16.51) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 507d129f-6dd5-4ae5-8c30-8542fde078d2)
+    (property "Sheetname" "mcu" (at 41.91 29.7684 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "mcu.kicad_sch" (at 41.91 47.5746 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "proTraceBoard"
+        (path "/7c55f98c-eaff-411d-a10a-455fb66f0238" (page "2"))
+      )
+    )
+  )
+
+  (sheet (at 80.01 30.48) (size 25.4 16.51) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 6801f45a-e8f7-4e67-adc9-8c33885ac8d0)
+    (property "Sheetname" "power" (at 80.01 29.7684 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "power.kicad_sch" (at 80.01 47.5746 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "proTraceBoard"
+        (path "/7c55f98c-eaff-411d-a10a-455fb66f0238" (page "3"))
+      )
+    )
+  )
+
+  (sheet (at 111.76 30.48) (size 27.94 16.51) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid da424192-4c4b-4d95-81e2-c0e3b60fe7e5)
+    (property "Sheetname" "interface" (at 111.76 29.7684 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "untitled.kicad_sch" (at 111.76 47.5746 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "proTraceBoard"
+        (path "/7c55f98c-eaff-411d-a10a-455fb66f0238" (page "4"))
+      )
+    )
+  )
+
+  (sheet_instances
+    (path "/" (page "1"))
+  )
+)

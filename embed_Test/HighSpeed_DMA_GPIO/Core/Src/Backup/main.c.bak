@@ -37,7 +37,7 @@
 /* Private define ------------------------------------------------------------*/
 /* USER CODE BEGIN PD */
 #undef TIM1_PERIOD
-#define TIM1_PERIOD 16-1
+#define TIM1_PERIOD 1-1
 /* USER CODE END PD */
 
 /* Private macro -------------------------------------------------------------*/
@@ -112,6 +112,7 @@ int main(void)
    pixelclock[ 9] = 0x00000002;  // set the ESH signal high
    pixelclock[13] = 0x00020000;  // set the ESH signal low
 
+
    // DMA, circular memory-to-peripheral mode, full word (32 bit) transfer
    HAL_DMA_Start(&hdma_tim2_up,  (uint32_t)pixelclock, (uint32_t)&(GPIOB->BSRR), 16);
    HAL_TIM_Base_Start(&htim2);
@@ -170,6 +171,32 @@ void SystemClock_Config(void)
 }
 
 /* USER CODE BEGIN 4 */
+///**
+//  * @brief  DMA conversion complete callback
+//  * @note   This function is executed when the transfer complete interrupt
+//  *         is generated at each end of DMA buffer
+//  * @retval None
+//  */
+//static void TransferComplete(DMA_HandleTypeDef *DmaHandle)
+//{
+//  uint32_t tmp_ct = 0;
+//  uint32_t tmp_mar = 0;
+//
+//  tmp_ct = ((hdma_tim2_up.hdma[TIMx_DMA_ID]->Instance->CR) & DMA_SxCR_CT);
+//  /* Update memory 0 address location */
+//  if (tmp_ct != 0)
+//  {
+//    tmp_mar = hdma_tim2_up->Instance->CMAR;
+//    HAL_DMAEx_ChangeMemory(TimHandlex.hdma[TIMx_DMA_ID], (tmp_mar + (2*DMA_MEM_BUFF_SIZE)), MEMORY0);
+//  }
+//  /* Update memory 1 address location */
+//  else
+//  {
+//    tmp_mar = hdma_tim2_up.hdma[TIMx_DMA_ID]->Instance->M1AR;
+//    HAL_DMAEx_ChangeMemory(TimHandlex.hdma[TIMx_DMA_ID], (tmp_mar + (2*DMA_MEM_BUFF_SIZE)), MEMORY1);
+//  }
+//
+//}
 
 /* USER CODE END 4 */
 

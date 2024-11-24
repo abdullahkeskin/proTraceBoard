@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP 64900001039
+D 5x20mm Fuseholder 6.3A 250V Littelfuse 6.3A PCB Mount Fuse Holder for 5 x 20mm Cartridge Fuse, 250 V
+K
+F http://www.littelfuse.com/~/media/electronics/datasheets/fuse_blocks/littelfuse_fuse_block_649_datasheet.pdf.pdf
+$ENDCMP
+#
+#End Doc Library

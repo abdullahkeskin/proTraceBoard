@@ -1,0 +1,16 @@
+(kicad_sch (version 20230121) (generator eeschema)
+
+  (uuid f157fba9-000e-49b0-9edb-58c32aa48181)
+
+  (paper "A4")
+
+  (lib_symbols
+  )
+
+
+  (text "rs485 izoleli,\n2 * 4-20ma izoleli ve korumalı,\n2 * 0-10v izoleli ve korumalı,\n2 * endüstriyel dijital input,\n2 * endüstriyel analog input, pt100 için,\nsoketler endüstriyel tip olacak.\n"
+    (at 19.05 29.21 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid 6d6ba15f-294d-4ab5-90da-968993c880b3)
+  )
+)

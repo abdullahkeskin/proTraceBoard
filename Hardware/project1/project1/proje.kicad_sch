@@ -1,0 +1,279 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "ad889ec0-8348-4a7e-814b-1d205706ea97")
+	(paper "A4")
+	(lib_symbols)
+	(sheet
+		(at 48.26 76.2)
+		(size 34.29 17.78)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "10d0a709-2a75-4341-a347-8323a21a0c52")
+		(property "Sheetname" "İşlemci"
+			(at 48.26 75.4884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "untitled.kicad_sch"
+			(at 48.26 94.5646 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "proje"
+				(path "/ad889ec0-8348-4a7e-814b-1d205706ea97"
+					(page "6")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 91.44 76.2)
+		(size 29.21 16.51)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "133f4064-dc7b-43a7-bc85-0803c3500576")
+		(property "Sheetname" "RTD"
+			(at 91.44 75.4884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "RTD.kicad_sch"
+			(at 91.44 93.2946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "proje"
+				(path "/ad889ec0-8348-4a7e-814b-1d205706ea97"
+					(page "7")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 92.71 31.75)
+		(size 25.4 13.97)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "86a4a377-6556-4ef4-911d-88a557125696")
+		(property "Sheetname" "Analog_Input"
+			(at 92.71 31.0384 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Analog_Input.kicad_sch"
+			(at 92.71 46.3046 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "proje"
+				(path "/ad889ec0-8348-4a7e-814b-1d205706ea97"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 46.99 36.83)
+		(size 29.21 15.24)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "87f3d5c2-934e-4001-8d7e-61aa509aaf61")
+		(property "Sheetname" "RS485"
+			(at 46.99 36.1184 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "RS485.kicad_sch"
+			(at 46.99 52.6546 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "proje"
+				(path "/ad889ec0-8348-4a7e-814b-1d205706ea97"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 179.07 33.02)
+		(size 30.48 17.78)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "8fec48f5-72b6-4e52-b603-bd32583d344e")
+		(property "Sheetname" "ADC"
+			(at 179.07 32.3084 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "ADC.kicad_sch"
+			(at 179.07 51.3846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "proje"
+				(path "/ad889ec0-8348-4a7e-814b-1d205706ea97"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 130.81 76.2)
+		(size 27.94 16.51)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "a4d25e41-2f69-416d-b7b2-3c202c0d872b")
+		(property "Sheetname" "encoder"
+			(at 130.81 75.4884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "encoder.kicad_sch"
+			(at 130.81 93.2946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "proje"
+				(path "/ad889ec0-8348-4a7e-814b-1d205706ea97"
+					(page "8")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 139.7 33.02)
+		(size 30.48 17.78)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "e3fefe28-c3b0-474b-96d3-e89d3c5a53bd")
+		(property "Sheetname" "Power"
+			(at 139.7 32.3084 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Power.kicad_sch"
+			(at 139.7 51.3846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "proje"
+				(path "/ad889ec0-8348-4a7e-814b-1d205706ea97"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+)

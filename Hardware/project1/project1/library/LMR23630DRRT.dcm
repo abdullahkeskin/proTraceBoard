@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP LMR23630DRRT
+D SIMPLE SWITCHER, 36V 3A Synchronous Step-Down Converter
+K
+F http://www.ti.com/lit/gpn/lmr23630
+$ENDCMP
+#
+#End Doc Library
